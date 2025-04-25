@@ -56,7 +56,7 @@ function Country() {
         <Filter setSelectedItem={handleChildDate} regions={region} />
       </div>
 
-      <div className='lg:grid grid-cols-4 lg:gap-12'>
+      <div className='lg:grid grid-cols-4 lg:gap-12 '>
         {isLoading ?
           <CountryCardSkeleton />
           : displayedCountries?.length === 0 ? <p>No such country in Region</p> : displayedCountries?.map((country: country) => {

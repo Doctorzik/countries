@@ -60,9 +60,9 @@ function CountryCard({ classname, home, capital, flags, name, population, region
     : "N/A"
 
   return (
-    <div className={cn(home ? "shadow-md rounded-lg p-6 h-[300px]  border-8 border-accent" : classname
+    <div className={cn(home ? "shadow-md rounded-lg p-2 lg:h-[300px]  border-8 border-accent " : classname
     )}>
-      <img src={flags?.png} alt={flags?.alt} className='' />
+      <img src={flags?.png} alt={flags?.alt} className='object-contain w-[100%]' />
       <div className={cn(!home ? "lg:w-[70%] lg:grid grid-cols-2" : "")}>
         <div>
           <h1 className='font-extrabold '>{name?.common}</h1>

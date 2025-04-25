@@ -86,6 +86,6 @@ This project increased my understanding in the Nextjs, React functionalities inc
 ## Author
 
 - Website - [Jeremiah H. Ezekiel](https://www.zik.netlify.app)
-- LinkedIn - [](https://www.linkedin.com/in/jeremiahezekiel)
+- LinkedIn - [Profile](https://www.linkedin.com/in/jeremiahezekiel)
 - Frontend Mentor - [@doctorzik](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
