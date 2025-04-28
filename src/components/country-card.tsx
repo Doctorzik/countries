@@ -60,7 +60,7 @@ function CountryCard({ classname, home, capital, flags, name, population, region
     : "N/A"
 
   return (
-    <div className={cn(home ? "shadow-md rounded-lg  lg:h-[300px] mb-3  border-accent overflow-scroll " : classname
+    <div className={cn(home ? "shadow-md rounded-lg  lg:h-[300px] mb-3  border-accent overflow-auto " : classname
     )}>
       <div >
         <img src={flags?.png} alt={flags?.alt} className="object-fill" />
