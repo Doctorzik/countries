@@ -5,7 +5,7 @@ import { Moon } from "lucide-react"
 import { useTheme } from 'next-themes'
 function NavBar() {
   return (
-    <nav className='flex flex-row justify-between shadow-md rounded-lg h-[50px] items-center  border-8'>
+    <nav className='flex flex-row justify-between shadow-md rounded-lg h-[50px] items-center  dark:bg-slate-800 p-4'>
       <div>
         Where in the World?
       </div>

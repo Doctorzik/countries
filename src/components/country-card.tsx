@@ -60,11 +60,14 @@ function CountryCard({ classname, home, capital, flags, name, population, region
     : "N/A"
 
   return (
-    <div className={cn(home ? "shadow-md rounded-lg p-2 lg:h-[300px]  border-8 border-accent " : classname
+    <div className={cn(home ? "shadow-md rounded-lg  lg:h-[300px] mb-3  border-accent overflow-scroll " : classname
     )}>
-      <img src={flags?.png} alt={flags?.alt} className='object-contain w-[100%]' />
+      <div >
+        <img src={flags?.png} alt={flags?.alt} className="object-fill" />
+
+      </div>
       <div className={cn(!home ? "lg:w-[70%] lg:grid grid-cols-2" : "")}>
-        <div>
+        <div className="m-4">
           <h1 className='font-extrabold '>{name?.common}</h1>
           {!home && <p>Native name: {name?.nativeName?.tsn?.official}</p>}
 
