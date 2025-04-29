@@ -48,7 +48,6 @@ function Country() {
     return matchedSearch && regions
   })
 
-  console.log(displayedCountries)
   return (
     <div>
       <div className='flex flex-col lg:flex-row m-4 justify-between'  >
