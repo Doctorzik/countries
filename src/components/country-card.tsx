@@ -47,10 +47,10 @@ export type country = {
   languages?: {
     name: string
   }
-}
+} 
 
 
-type BorderCountry = Pick<country, 'name'>[] | null;
+type BorderCountry = Pick<country , 'name'>[] | null;
 
 
 
